@@ -1,5 +1,12 @@
 Omrails2::Application.routes.draw do
 
+  resources :pins
+
+
+  ActiveAdmin.routes(self)
+
+  devise_for :admin_users, ActiveAdmin::Devise.config
+
   devise_for :users
 
 get 'about' => 'pages#about'

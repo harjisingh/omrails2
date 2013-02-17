@@ -1,7 +1,7 @@
 $baseFontFamily: Oxygen;
 @import url(http://fonts.googleapis.com/css?family=Oxygen);
 
-$btnPrimaryBackground: Purple;
+$btnPrimaryBackground: blue;
 $navbarBackgroundHighlight: white;
 $navbarBackground: white;
 
@@ -21,8 +21,8 @@ body {
 .footer {
 
 	margin-top: 50px;
-	color: $grayLight;
+	color: $purple;
 	a {
-		color: $gray;
+		color: $purple;
 	}
 }
