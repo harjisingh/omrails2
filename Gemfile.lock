@@ -50,6 +50,7 @@ GEM
       sass (>= 3.2.0)
       thor
     builder (3.0.4)
+    cocaine (0.3.2)
     coffee-rails (3.2.2)
       coffee-script (>= 2.2.0)
       railties (~> 3.2.0)
@@ -94,6 +95,12 @@ GEM
     mime-types (1.20.1)
     multi_json (1.5.0)
     orm_adapter (0.4.0)
+    paperclip (3.0.4)
+      activemodel (>= 3.0.0)
+      activerecord (>= 3.0.0)
+      activesupport (>= 3.0.0)
+      cocaine (>= 0.0.2)
+      mime-types
     pg (0.14.1)
     polyamorous (0.5.0)
       activerecord (~> 3.0)
@@ -160,6 +167,7 @@ DEPENDENCIES
   coffee-rails (~> 3.2.1)
   devise
   jquery-rails
+  paperclip (~> 3.0)
   pg
   rails (= 3.2.11)
   sass-rails (~> 3.2.3)
