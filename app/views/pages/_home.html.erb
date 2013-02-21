@@ -1,22 +1,15 @@
+<% unless user_signed_in? %>
   <div style="display:inline;">
       <img height="1" width="1" style="border-style:none;" alt="" src="http://www.googleadservices.com/pagead/conversion/1011360487/?value=40&amp;label=ex5HCJmipgIQ58Wg4gM&amp;guid=ON&amp;script=0"/>
     </div>
-
-
-
-
-
-
-
-
-
-
-<div id="this-carousel-id" class="carousel slide"><!-- class of slide for animation -->
+<div id="this-carousel-id" class="carousel slide">
+  <!-- class of slide for animation -->
   <div class="carousel-inner">
-    <div class="item active"><!-- class of active since it's the first item -->
+    <div class="item active">
+      <!-- class of active since it's the first item -->
       <img src="https://sphotos-b.xx.fbcdn.net/hphotos-ash3/830286_267186636744664_459082891_o.jpg" alt="" />
       <div class="carousel-caption">
-        <p></p>
+        <p>caption here</p>
       </div>
     </div>
     <div class="item">
@@ -37,13 +30,12 @@
         <p>Caption text here</p>
       </div>
     </div>
-  </div><!-- /.carousel-inner -->
+  </div>
+  <!-- /.carousel-inner -->
   <!--  Next and Previous controls below
         href values must reference the id for this carousel -->
     <a class="carousel-control left" href="#this-carousel-id" data-slide="prev">&lsaquo;</a>
     <a class="carousel-control right" href="#this-carousel-id" data-slide="next">&rsaquo;</a>
-
-
 </div>
 
 
@@ -57,12 +49,11 @@
 	<%= link_to "upload ♥ share", "http://lovebpm.com" %>
 	your favorite tunes
 </p>
-
 <p>
 	<%= link_to "Sign Up", new_user_registration_path, class: "btn btn btn-primary btn-large" %>
 
 </p>
-
 </div>
+<% end %>
 
 
