@@ -7,6 +7,7 @@ gem 'simple_form'
 gem 'activeadmin'
 gem 'paperclip', '3.4.0'
 gem "cocaine"
+gem 'will_paginate'
 
 
 group :production do
@@ -14,6 +15,7 @@ group :production do
 end
 group :development, :test do
   gem 'sqlite3'
+  gem 'faker'
 end
 
 
